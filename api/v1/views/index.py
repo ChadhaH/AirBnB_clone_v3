@@ -36,4 +36,3 @@ def get_things():
             'users': storage.count('User')
             }
     return jsonify(things)
-
